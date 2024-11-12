@@ -1,13 +1,16 @@
 {
   "name": "vapi-web",
-  "version": "1.0.3",
-  "description": "Even easier for devs to integrate Vapi API (Voice AI) into their applications",
+  "version": "1.2.15",
+  "scripts": {
+    "dev": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && babel src --out-dir lib --extensions '.ts,.tsx'"
+  },
+  "description": "Even easier for devs to integrate Vapi API (Voice AI) into their applications", 
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && babel src --out-dir lib --extensions \".ts,.tsx\""
-  },
+
+
   "keywords": [],
   "author": "Cameron King",
   "license": "ISC",
